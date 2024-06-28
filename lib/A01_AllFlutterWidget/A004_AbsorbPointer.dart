@@ -29,7 +29,7 @@ class _A004_AbsorbPointerState extends State<A004_AbsorbPointer> {
             child: AbsorbPointer(     // It is prevent to click the button
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.blue.shade200,
+                  backgroundColor: Colors.blue.shade200,
                 ),
                 onPressed: (){},
                 child: null,

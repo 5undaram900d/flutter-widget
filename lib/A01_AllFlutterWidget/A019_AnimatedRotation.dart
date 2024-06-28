@@ -28,7 +28,7 @@ class _A019_AnimatedRotationState extends State<A019_AnimatedRotation> {
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              primary: Colors.orangeAccent
+              backgroundColor: Colors.orangeAccent
             ),
             onPressed: (){
               setState(() {

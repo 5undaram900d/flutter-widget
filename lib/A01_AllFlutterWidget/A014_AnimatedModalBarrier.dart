@@ -54,7 +54,7 @@ class _A014_AnimatedModalBarrierState extends State<A014_AnimatedModalBarrier> w
                 children: [
                   ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.orangeAccent,
+                      backgroundColor: Colors.orangeAccent,
                     ),
                     onPressed: (){
                       setState(() {

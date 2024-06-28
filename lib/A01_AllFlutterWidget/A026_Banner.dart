@@ -34,7 +34,7 @@ class _A026_BannerState extends State<A026_Banner> {
                         Text('Flutter Banner', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
                         ElevatedButton(
                           style: ElevatedButton.styleFrom(
-                            primary: Colors.orangeAccent
+                            backgroundColor: Colors.orangeAccent
                           ),
                           onPressed: (){},
                           child: Text('Very Good'),
